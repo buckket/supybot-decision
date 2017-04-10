@@ -1,0 +1,17 @@
+supybot-decision
+~~~~~~~~~~~~~~~~
+
+A plugin that implements a self-enforcing protocol for collaborative decision-making.
+Based on the sedeprot[0] library and the proposal of erlehmann and Katharin Tai[1].
+
+Works best with Supybot/Limnoria.
+
+ToDo:
+- Specify valid values before first round (optional)
+- Implement a timeout and/or dropout condition to avoid deadlock
+
+License:
+GPLv3+
+
+[0]: https://github.com/buckket/sedeprot
+[1]: http://daten.dieweltistgarnichtso.net/tmp/docs/collaborative-decision-making.html
